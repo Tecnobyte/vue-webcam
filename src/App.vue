@@ -23,6 +23,7 @@
 
 import WebCamComponent from './components/webcam.vue';
 export default {
+  name: 'web-cam',
   extends: WebCamComponent,
   props: {
       width: {

@@ -1,5 +1,7 @@
 import Vue from 'vue';
-import App from './App.vue';
+import WebCam from './App.vue';
+
+// export default WebCam;
 
 new Vue({
   el: '#app',

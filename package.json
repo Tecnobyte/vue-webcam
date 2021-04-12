@@ -1,7 +1,7 @@
 {
-  "name": "vue-webcam",
+  "name": "vue-webcam-component",
   "version": "1.0.0",
-  "description": "prueba de publicacion de npm",
+  "description": "componente de vue para el uso de la camara web",
   "main": "src/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

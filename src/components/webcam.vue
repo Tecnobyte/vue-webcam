@@ -41,7 +41,6 @@
             },
             // toma la foto y la convierte en imagen
             get_base64: function(){
-                console.log(this.format);
                 let resolution = this.$refs.webcam;
                 let canvas = document.createElement('canvas');
                 canvas.width = resolution.videoWidth;
