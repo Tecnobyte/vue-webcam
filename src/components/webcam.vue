@@ -35,9 +35,15 @@
             },
             // inicio los parametros de la webcam
             play: async function(config) {
-                let media = await navigator.mediaDevices.getUserMedia(config);
-                this.$refs.webcam.srcObject = media;
-                this.$refs.webcam.play();
+                try{
+                    let media = await navigator.mediaDevices.getUserMedia(config);
+                    this.$refs.webcam.srcObject = media;
+                    this.$refs.webcam.play();
+                    return true;
+                }catch(Error){
+                    console.error(Error);
+                    return false;
+                }
             },
             // toma la foto y la convierte en imagen
             get_base64: function(){
