@@ -24,10 +24,16 @@
                 await this.play(device_id);
             },
             // detengo la webcam
-            stop_webcam: function(){
-                this.$refs.webcam.srcObject.getTracks().forEach( (track)=> {
-                    track.stop();
-                });
+            stop: function(){
+                try{
+                    this.$refs.webcam.srcObject.getTracks().forEach( (track)=> {
+                        track.stop();
+                    });
+                    return false;
+                }catch(Error){
+                    console.error(Error)
+                    return false;
+                }
             },
             // abro una ventana emergente del video
             ventana: function(){
