@@ -69,7 +69,7 @@ export default {
       format: {type: String, default: "image/png"},
       poster: {
           type: String,
-          default: './../assets/static.git'
+          default: './image/poster.gif'
       },
       audio: {type: Boolean, default: false},        
   }, data() {
