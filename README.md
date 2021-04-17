@@ -3,18 +3,18 @@
 Vue-webcam es un componente creado para versiones de vue 2 y compatible con vue3.
 
 ## Install
-------------
-`npm i vue-webcam-component`
-
+```sh 
+npm i vue-webcam-component`
+```
 ## Usage
-------------
-`import Webcam from 'vue-webcam-component';`
 
+```sh
+import Webcam from 'vue-webcam-component';`
 `components: {
     'web-cam': Webcam
-}`
+}
+```
 ## Props
-------------
 | Name | Type | Defauld | Descripcion |
 | ------------ | ------------ | ------------ |------------|
 | width | Object | { min: 1024, ideal: 1280, max: 1920 }  |  |
