@@ -9,7 +9,7 @@ npm i vue-webcam-component`
 ## Usage
 
 ```sh
-import Webcam from 'vue-webcam-component';`
+import Webcam from 'vue-webcam-component';
 `components: {
     'web-cam': Webcam
 }
