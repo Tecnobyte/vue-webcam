@@ -2,16 +2,16 @@
   <div>
     <h2>Web Cam</h2>
     <web-cam ref="cam">
-        <div slot="buttons">
+        <!-- <div slot="buttons">
             <button @click="iniciar">iniciar</button>
-        </div>
+        </div> -->
     </web-cam>
   </div>
 </template>
 
 <script>
 
-import WebCam from "./App.vue";
+import WebCam  from "./../src/main";
 export default {
   name: 'index',
   components: {
