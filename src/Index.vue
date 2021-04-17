@@ -4,7 +4,6 @@
     <web-cam ref="cam">
         <div slot="buttons">
             <button @click="iniciar">iniciar</button>
-
         </div>
     </web-cam>
   </div>
